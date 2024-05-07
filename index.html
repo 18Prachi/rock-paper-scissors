@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="loadGameState()">
+    <h1>Rock Paper Scissors</h1>
+    
+    <div class="buttons_container">
+        <button onclick="
+            userMove = 'rock',
+            generateComputerMove(),
+            generateResult(),
+            gameSummary(),
+            generateHistory()
+        ">
+            <img src="images/rock.png" alt="Rock">
+        </button>
+
+        <button onclick="
+            userMove = 'paper',
+            generateComputerMove(),
+            generateResult(),
+            gameSummary(),
+            generateHistory()
+        ">
+            <img src="images/paper.png" alt="Paper">
+        </button>
+
+        <button onclick="
+            userMove = 'scissors',
+            generateComputerMove(),
+            generateResult(),
+            gameSummary(),
+            generateHistory()
+        ">
+            <img src="images/scissors.png" alt="Scissors">
+        </button>
+
+        <button onclick="resetScore()" type="button"><img id="reset" src="images/reset.jpg" alt="Reset"></button>
+    </div>
+
+    <h1>Game Summary</h1>
+    <table>
+        <tr>
+            <th>Wins</th>
+            <th>Loses</th>
+            <th>Ties</th>
+            <th>Games Played</th>
+        </tr>
+        <tr>
+            <td id="win">0</td>
+            <td id="loss">0</td>
+            <td id="tie">0</td>
+            <td id="gamePlayed">0</td>
+        </tr>
+    </table>
+    
+    <h1>Game History</h1>
+    <table id="gameHistory">
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
