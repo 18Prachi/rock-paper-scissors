@@ -14,18 +14,19 @@ CSS is used to style the game elements, including defining the appearance of the
 ### JavaScript Logic:
 
 JavaScript is the backbone of the game, providing the logic for how the game operates. It includes functions to:
-1) Generate a random move (rock, paper, or scissors) for the computer opponent.
-2) Compare the player's move with the computer's move to determine the winner.
-3) Update the scoreboard based on the game outcome.
-4) Display messages indicating whether the player won, lost, or drew the round.
-5) Keep track of the overall score across multiple rounds.
+- Generate a random move (rock, paper, or scissors) for the computer opponent.
+- Compare the player's move with the computer's move to determine the winner.
+- Update the scoreboard based on the game outcome.
+- Display messages indicating whether the player won, lost, or drew the round.
+- Keep track of the overall score across multiple rounds.
 
 ### Game Flow:
 
 When the player clicks on a button to choose their move (rock, paper, or scissors), the JavaScript code triggers the game logic.
-1) The computer randomly selects its move.
-2) The player's move is compared to the computer's move to determine the winner.
-3) The scoreboard is updated accordingly, and a message is displayed to inform the player of the round outcome.
-4) The game continues until the player decides to stop.
+- The computer randomly selects its move.
+- The player's move is compared to the computer's move to determine the winner.
+- The scoreboard is updated accordingly, and a message is displayed to inform the player of the round outcome.
+- The game continues until the player decides to stop.
 
-#### Overall, this Rock, Paper, Scissors project is a fun and interactive way to learn and practice HTML, CSS, and JavaScript skills while creating a classic game for users to enjoy.
+
+Overall, this Rock, Paper, Scissors project is a fun and interactive way to learn and practice HTML, CSS, and JavaScript skills while creating a classic game for users to enjoy.
